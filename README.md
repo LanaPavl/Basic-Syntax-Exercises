@@ -1,5 +1,6 @@
 
 //returning a greeting
+
 let myName = 'Lana';
 const birthYear = 1990;
 const greeting = (name) => {
@@ -9,6 +10,7 @@ greeting(myName);
 
 
 //returning an array of numbers from 15 to 30
+
 let array = [];
 const range = (num1, num2) => {
     for(let i = num1; i = num2; number++) {
@@ -19,6 +21,7 @@ const range = (num1, num2) => {
 range(15,30);
 
 //returning odd numbers from 15 to 30
+
 let arr = [];
 const oddNum = (num1, num2) => {
     for (let i = num1; i < num2; i++) {
@@ -32,6 +35,7 @@ return arr;
 oddNum(15,30);
 
 //calculating the average
+
 const average = (a, b) => {
     return a + b / average.length
 }
@@ -55,6 +59,7 @@ const calculate = () => {
 calculate();
 
 //objects tasks
+
 const fn = () => {
     const obj1 = {
         name: 'Marcus'
@@ -77,6 +82,7 @@ module.exports = { fn };
 module.exports = { createUser }
 
 //Implement phone book
+
 const object = [{ name: 'Jack', phone: '+380673270887' },
 {name: 'Sarah', phone: '+380637856876'}];
 const findPhoneByName = (name) => {
